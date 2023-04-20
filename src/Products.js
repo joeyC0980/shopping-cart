@@ -7,7 +7,7 @@ export default function Products({addToCart}){
   const Models="Models";
 
 
-  const [products,setProducts] = useState([
+  const [products] = useState([
     {
       category:DRESS,
       name:"Ruched Fitted Jersey Dress In Coral",

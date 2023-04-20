@@ -59,7 +59,7 @@ const getCartTotal=()=>{
 }
 const setQuantity= (product,amount) =>{
   const newCart = [...cart];
-  newCart.find(item => item.name == product.name).quantity =amount;
+  newCart.find(item => item.name === product.name).quantity =amount;
   setCart(newCart);
     
 };
